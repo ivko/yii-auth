@@ -70,7 +70,7 @@ $this->breadcrumbs = array(
 
 <div class="row">
 
-    <div class="span6">
+    <div class="col-xs-6">
 
         <h3>
             <?php echo Yii::t('AuthModule.main', 'Ancestors'); ?>
@@ -104,7 +104,7 @@ $this->breadcrumbs = array(
 
     </div>
 
-    <div class="span6">
+    <div class="col-xs-6">
 
         <h3>
             <?php echo Yii::t('AuthModule.main', 'Descendants'); ?>
@@ -142,7 +142,7 @@ $this->breadcrumbs = array(
 
 <div class="row">
 
-    <div class="span6 offset6">
+    <div class="col-xs-6 col-xs-offset-6">
 
         <?php if (!empty($childOptions)): ?>
 

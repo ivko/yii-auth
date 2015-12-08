@@ -18,7 +18,7 @@ $this->breadcrumbs = array(
 
 <div class="row">
 
-    <div class="span6">
+    <div class="col-xs-6">
 
         <h3>
             <?php echo Yii::t('AuthModule.main', 'Permissions'); ?>
